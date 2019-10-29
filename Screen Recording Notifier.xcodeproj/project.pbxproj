@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		121E8A77236820F3006E524B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A76236820F3006E524B /* AppDelegate.swift */; };
 		121E8A79236820F3006E524B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A78236820F3006E524B /* ViewController.swift */; };
-		121E8A7C236820F3006E524B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7A236820F3006E524B /* Main.storyboard */; };
 		121E8A7E236820F4006E524B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7D236820F4006E524B /* Assets.xcassets */; };
 		121E8A81236820F4006E524B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7F236820F4006E524B /* LaunchScreen.storyboard */; };
 		121E8A8C236820F5006E524B /* Screen_Recording_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A8B236820F4006E524B /* Screen_Recording_NotifierTests.swift */; };
 		121E8A97236820F5006E524B /* Screen_Recording_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A96236820F5006E524B /* Screen_Recording_NotifierUITests.swift */; };
+		121E8AA5236821BB006E524B /* ScreenRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8AA4236821BB006E524B /* ScreenRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		121E8A73236820F3006E524B /* Screen Recording Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Recording Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		121E8A76236820F3006E524B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		121E8A78236820F3006E524B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		121E8A7B236820F3006E524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		121E8A7D236820F4006E524B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121E8A80236820F4006E524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		121E8A82236820F4006E524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		121E8A92236820F5006E524B /* Screen Recording NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen Recording NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		121E8A96236820F5006E524B /* Screen_Recording_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_Recording_NotifierUITests.swift; sourceTree = "<group>"; };
 		121E8A98236820F5006E524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121E8AA4236821BB006E524B /* ScreenRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				121E8A76236820F3006E524B /* AppDelegate.swift */,
 				121E8A78236820F3006E524B /* ViewController.swift */,
-				121E8A7A236820F3006E524B /* Main.storyboard */,
+				121E8AA4236821BB006E524B /* ScreenRecorder.swift */,
 				121E8A7D236820F4006E524B /* Assets.xcassets */,
 				121E8A7F236820F4006E524B /* LaunchScreen.storyboard */,
 				121E8A82236820F4006E524B /* Info.plist */,
@@ -231,7 +231,6 @@
 			files = (
 				121E8A81236820F4006E524B /* LaunchScreen.storyboard in Resources */,
 				121E8A7E236820F4006E524B /* Assets.xcassets in Resources */,
-				121E8A7C236820F3006E524B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +257,7 @@
 			files = (
 				121E8A79236820F3006E524B /* ViewController.swift in Sources */,
 				121E8A77236820F3006E524B /* AppDelegate.swift in Sources */,
+				121E8AA5236821BB006E524B /* ScreenRecorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		121E8A7A236820F3006E524B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				121E8A7B236820F3006E524B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		121E8A7F236820F4006E524B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,7 +425,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22GXVU34LT;
 				INFOPLIST_FILE = "Screen Recording Notifier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22GXVU34LT;
 				INFOPLIST_FILE = "Screen Recording Notifier/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
