@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121E8A77236820F3006E524B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A76236820F3006E524B /* AppDelegate.swift */; };
+		121E8A79236820F3006E524B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A78236820F3006E524B /* ViewController.swift */; };
+		121E8A7C236820F3006E524B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7A236820F3006E524B /* Main.storyboard */; };
+		121E8A7E236820F4006E524B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7D236820F4006E524B /* Assets.xcassets */; };
+		121E8A81236820F4006E524B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E8A7F236820F4006E524B /* LaunchScreen.storyboard */; };
+		121E8A8C236820F5006E524B /* Screen_Recording_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A8B236820F4006E524B /* Screen_Recording_NotifierTests.swift */; };
+		121E8A97236820F5006E524B /* Screen_Recording_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E8A96236820F5006E524B /* Screen_Recording_NotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		121E8A88236820F4006E524B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121E8A6B236820F3006E524B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121E8A72236820F3006E524B;
+			remoteInfo = "Screen Recording Notifier";
+		};
+		121E8A93236820F5006E524B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121E8A6B236820F3006E524B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121E8A72236820F3006E524B;
+			remoteInfo = "Screen Recording Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121E8A73236820F3006E524B /* Screen Recording Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Recording Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E8A76236820F3006E524B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		121E8A78236820F3006E524B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		121E8A7B236820F3006E524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		121E8A7D236820F4006E524B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		121E8A80236820F4006E524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		121E8A82236820F4006E524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121E8A87236820F4006E524B /* Screen Recording NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen Recording NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E8A8B236820F4006E524B /* Screen_Recording_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_Recording_NotifierTests.swift; sourceTree = "<group>"; };
+		121E8A8D236820F5006E524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121E8A92236820F5006E524B /* Screen Recording NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen Recording NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E8A96236820F5006E524B /* Screen_Recording_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_Recording_NotifierUITests.swift; sourceTree = "<group>"; };
+		121E8A98236820F5006E524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121E8A70236820F3006E524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A84236820F4006E524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A8F236820F5006E524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121E8A6A236820F3006E524B = {
+			isa = PBXGroup;
+			children = (
+				121E8A75236820F3006E524B /* Screen Recording Notifier */,
+				121E8A8A236820F4006E524B /* Screen Recording NotifierTests */,
+				121E8A95236820F5006E524B /* Screen Recording NotifierUITests */,
+				121E8A74236820F3006E524B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		121E8A74236820F3006E524B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				121E8A73236820F3006E524B /* Screen Recording Notifier.app */,
+				121E8A87236820F4006E524B /* Screen Recording NotifierTests.xctest */,
+				121E8A92236820F5006E524B /* Screen Recording NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		121E8A75236820F3006E524B /* Screen Recording Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				121E8A76236820F3006E524B /* AppDelegate.swift */,
+				121E8A78236820F3006E524B /* ViewController.swift */,
+				121E8A7A236820F3006E524B /* Main.storyboard */,
+				121E8A7D236820F4006E524B /* Assets.xcassets */,
+				121E8A7F236820F4006E524B /* LaunchScreen.storyboard */,
+				121E8A82236820F4006E524B /* Info.plist */,
+			);
+			path = "Screen Recording Notifier";
+			sourceTree = "<group>";
+		};
+		121E8A8A236820F4006E524B /* Screen Recording NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				121E8A8B236820F4006E524B /* Screen_Recording_NotifierTests.swift */,
+				121E8A8D236820F5006E524B /* Info.plist */,
+			);
+			path = "Screen Recording NotifierTests";
+			sourceTree = "<group>";
+		};
+		121E8A95236820F5006E524B /* Screen Recording NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				121E8A96236820F5006E524B /* Screen_Recording_NotifierUITests.swift */,
+				121E8A98236820F5006E524B /* Info.plist */,
+			);
+			path = "Screen Recording NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121E8A72236820F3006E524B /* Screen Recording Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E8A9B236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording Notifier" */;
+			buildPhases = (
+				121E8A6F236820F3006E524B /* Sources */,
+				121E8A70236820F3006E524B /* Frameworks */,
+				121E8A71236820F3006E524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screen Recording Notifier";
+			productName = "Screen Recording Notifier";
+			productReference = 121E8A73236820F3006E524B /* Screen Recording Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		121E8A86236820F4006E524B /* Screen Recording NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E8A9E236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording NotifierTests" */;
+			buildPhases = (
+				121E8A83236820F4006E524B /* Sources */,
+				121E8A84236820F4006E524B /* Frameworks */,
+				121E8A85236820F4006E524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121E8A89236820F4006E524B /* PBXTargetDependency */,
+			);
+			name = "Screen Recording NotifierTests";
+			productName = "Screen Recording NotifierTests";
+			productReference = 121E8A87236820F4006E524B /* Screen Recording NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		121E8A91236820F5006E524B /* Screen Recording NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E8AA1236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording NotifierUITests" */;
+			buildPhases = (
+				121E8A8E236820F5006E524B /* Sources */,
+				121E8A8F236820F5006E524B /* Frameworks */,
+				121E8A90236820F5006E524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121E8A94236820F5006E524B /* PBXTargetDependency */,
+			);
+			name = "Screen Recording NotifierUITests";
+			productName = "Screen Recording NotifierUITests";
+			productReference = 121E8A92236820F5006E524B /* Screen Recording NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		121E8A6B236820F3006E524B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jaffer Sheriff U";
+				TargetAttributes = {
+					121E8A72236820F3006E524B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					121E8A86236820F4006E524B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 121E8A72236820F3006E524B;
+					};
+					121E8A91236820F5006E524B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 121E8A72236820F3006E524B;
+					};
+				};
+			};
+			buildConfigurationList = 121E8A6E236820F3006E524B /* Build configuration list for PBXProject "Screen Recording Notifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 121E8A6A236820F3006E524B;
+			productRefGroup = 121E8A74236820F3006E524B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121E8A72236820F3006E524B /* Screen Recording Notifier */,
+				121E8A86236820F4006E524B /* Screen Recording NotifierTests */,
+				121E8A91236820F5006E524B /* Screen Recording NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121E8A71236820F3006E524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E8A81236820F4006E524B /* LaunchScreen.storyboard in Resources */,
+				121E8A7E236820F4006E524B /* Assets.xcassets in Resources */,
+				121E8A7C236820F3006E524B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A85236820F4006E524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A90236820F5006E524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121E8A6F236820F3006E524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E8A79236820F3006E524B /* ViewController.swift in Sources */,
+				121E8A77236820F3006E524B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A83236820F4006E524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E8A8C236820F5006E524B /* Screen_Recording_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E8A8E236820F5006E524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E8A97236820F5006E524B /* Screen_Recording_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121E8A89236820F4006E524B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121E8A72236820F3006E524B /* Screen Recording Notifier */;
+			targetProxy = 121E8A88236820F4006E524B /* PBXContainerItemProxy */;
+		};
+		121E8A94236820F5006E524B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121E8A72236820F3006E524B /* Screen Recording Notifier */;
+			targetProxy = 121E8A93236820F5006E524B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		121E8A7A236820F3006E524B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121E8A7B236820F3006E524B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		121E8A7F236820F4006E524B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121E8A80236820F4006E524B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121E8A99236820F5006E524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		121E8A9A236820F5006E524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		121E8A9C236820F5006E524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		121E8A9D236820F5006E524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		121E8A9F236820F5006E524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Recording Notifier.app/Screen Recording Notifier";
+			};
+			name = Debug;
+		};
+		121E8AA0236820F5006E524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Recording Notifier.app/Screen Recording Notifier";
+			};
+			name = Release;
+		};
+		121E8AA2236820F5006E524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Screen Recording Notifier";
+			};
+			name = Debug;
+		};
+		121E8AA3236820F5006E524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Screen Recording NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaffer.Screen-Recording-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Screen Recording Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121E8A6E236820F3006E524B /* Build configuration list for PBXProject "Screen Recording Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E8A99236820F5006E524B /* Debug */,
+				121E8A9A236820F5006E524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121E8A9B236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E8A9C236820F5006E524B /* Debug */,
+				121E8A9D236820F5006E524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121E8A9E236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E8A9F236820F5006E524B /* Debug */,
+				121E8AA0236820F5006E524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121E8AA1236820F5006E524B /* Build configuration list for PBXNativeTarget "Screen Recording NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E8AA2236820F5006E524B /* Debug */,
+				121E8AA3236820F5006E524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 121E8A6B236820F3006E524B /* Project object */;
+}
