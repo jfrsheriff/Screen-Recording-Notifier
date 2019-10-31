@@ -4,7 +4,7 @@ This project helps you to identify when user is recording the screen. It also ha
 
 
 
-Intialize the Files as below 
+Intialize notifier as below 
 
         let screenRecordingNotifier = ScreenRecordingNotifier.shared
         screenRecordingNotifier.shouldShowTouch = true
