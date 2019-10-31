@@ -28,6 +28,14 @@ class ScreenRecordingNotifier {
         return touchIndicationView
     }()
     
+    private lazy var tapGestureRecognizer : TapGestureRecognizer = {
+        let tapGestureRecognizer = TapGestureRecognizer.init()
+        tapGestureRecognizer.cancelsTouchesInView = false
+        return tapGestureRecognizer
+    }()
+    
+    private var sourceWindow : UIWindow? = nil
+    
     private init() {}
     
     deinit {
@@ -41,23 +49,23 @@ class ScreenRecordingNotifier {
     func configure(inWindow window: UIWindow?) {
         self.removeAllObserverFromSelf()
         if #available(iOS 11.0, *) {
-            
-            let tapGestureRecognizer = TapGestureRecognizer.init()
-            tapGestureRecognizer.cancelsTouchesInView = false
-            window?.addGestureRecognizer(tapGestureRecognizer)
-
+            sourceWindow = window
             NotificationCenter.default.addObserver(self, selector: #selector(screeenRecordingStateChanged), name: UIScreen.capturedDidChangeNotification, object: nil)
         }
     }
-        
+    
     @objc func screeenRecordingStateChanged(){
-        if #available(iOS 11.0, *) {
+        if #available(iOS 11.0, *), let window = sourceWindow {
             isScreenBeingRecorded = UIScreen.main.isCaptured
             
             if isScreenBeingRecorded{
-                NotificationCenter.default.post(name: Notification.Name(ScreenRecordingNotifier.ScreenRecordingStartedNotification) , object: nil)
+                if tapGestureRecognizer.view == nil{
+                    window.addGestureRecognizer(tapGestureRecognizer)
+                    NotificationCenter.default.post(name: Notification.Name(ScreenRecordingNotifier.ScreenRecordingStartedNotification) , object: nil)
+                }
             }else{
-                NotificationCenter.default.post(name: Notification.Name(ScreenRecordingNotifier.ScreenRecordingEndedNotification) , object: nil)
+                window.removeGestureRecognizer(tapGestureRecognizer)
+                 NotificationCenter.default.post(name: Notification.Name(ScreenRecordingNotifier.ScreenRecordingEndedNotification) , object: nil)
             }
         }
     }
